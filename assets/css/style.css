@@ -138,18 +138,18 @@ body {
     
     
 .home-content p {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
+    font-size: 2.25rem;
+    line-height: 2.0rem;
     margin: 10px 2px;
     height: 20px 30px;
 }
-
+/* 
 .home-content p::first-letter {
     font-size: 1.5rem;
     color: var(--accent-color-bright);
     font-weight: bold;
     font-style: italic;
-}
+} */
 
 .home-sci {
     margin: 25px 0 40px;
