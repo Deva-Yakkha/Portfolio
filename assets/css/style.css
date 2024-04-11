@@ -38,8 +38,8 @@
 }
 
 body {
-    background: linear-gradient(-90deg, #083ebc 65%, #fff 35%);
-}
+    background: rgb(16,166,132);
+    background: linear-gradient(90deg, rgba(16,166,132,1) 0%, rgba(9,9,121,1) 42%, rgba(6,20,167,1) 69%, rgba(0,212,255,1) 100%);}
 
 
 .header {
@@ -48,7 +48,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: var(--accent-color-bright);
+    background: var(--primary-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,8 +56,8 @@ body {
 }
 
 .logo {
-    font-size: 60;
-    color: var(--primary-color);
+    font-size: 2rem;
+    color: var(--neutral-lt-color);
     text-decoration: none;
     font-weight: 700;
     text-transform: capitalize;
@@ -78,8 +78,7 @@ body {
 
 .home {
     height: 100vh;
-    background: linear-gradient(-90deg, #083ebc 65%, #fff 35%);
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
     align-items: center;
     padding:1% 12%;
@@ -108,9 +107,10 @@ body {
     }
 
 .home-content {
-        max-width: 300px;
+        margin-left: 400px;
         color: var(--neutral-lt-color);
         text-align: justify;
+        margin-top: 75px;
     }
 
 .home-content h1 {
@@ -138,9 +138,10 @@ body {
     
     
 .home-content p {
-    font-size: 1rem;
-    margin: 15px 2px;
-    width: auto;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin: 10px 2px;
+    height: 20px 30px;
 }
 
 .home-content p::first-letter {
