@@ -151,6 +151,25 @@ body {
     font-style: italic;
 } */
 
+/* /* Second slector */
+.home-content p .second {
+    display: none;
+    color: beige;
+    font-size: larger;
+    line-height: 1.5;
+    }
+    
+    /* First slector */
+.home-content p:hover .first {
+    display: none;
+    
+    }
+    
+    /* Second slector */
+.home-content p:hover .second {
+    display: inline;
+    }
+
 .home-sci {
     margin: 25px 0 40px;
 }
