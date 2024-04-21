@@ -30,6 +30,7 @@
     --shadow: 0 0 6px rgba(0,0,0..3);
 }
 
+/* Universal secletor */
 * {
     margin: 0;
     padding: 0;
@@ -41,7 +42,7 @@ body {
     background: rgb(16,166,132);
     background: linear-gradient(90deg, rgba(16,166,132,1) 0%, rgba(9,9,121,1) 42%, rgba(6,20,167,1) 69%, rgba(0,212,255,1) 100%);}
 
-
+/* Header Section Start */
 .header {
     position: fixed;
     top: 0;
@@ -75,27 +76,16 @@ body {
 .navbar a:hover {
     color: var(--tertiary-color);
 }
+/* Header Section End */
 
+/* Main Section Start */
 .home {
-    height: 100vh;
-    /*display: flex;*/
+    height: 120vh;
     justify-content: space-between;
     align-items: center;
     padding:1% 12%;
     width: auto;
     }
-
-/* .home-image {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 400px;
-        height: 400px;
-        background: var(--primary-color);
-        border-radius: 50%;
-        border: 25px solid var(--neutral-lt-color);
-        outline: 25px solid var(--tertiary-color);
-    } */
 
 .photo img {
         position: fixed;
@@ -122,20 +112,7 @@ body {
 .home-content h1:hover {
     color: var(--neutral-lt-color);
     text-shadow: var(--tertiary-color);
-
-
 }
-    
-/* .home-content h3 {
-        font-size: 30px;
-        color: var(--tertiary-color);
-        -webkit-text-stroke: .5px var(--neutral-lt-color);
-        background-image: linear-gradient(#00abf0, #00abf0);
-        background-repeat: no-repeat;
-        background-position: -200px 0;
-        animation: animationText 6s linear infinite;
-    } */
-    
     
 .home-content p {
     font-size: 1.23rem;
@@ -143,13 +120,6 @@ body {
     margin: 10px 2px;
     height: 20px 30px;
 }
-/* 
-.home-content p::first-letter {
-    font-size: 1.5rem;
-    color: var(--accent-color-bright);
-    font-weight: bold;
-    font-style: italic;
-} */
 
 /* /* Second slector */
 .home-content p .second {
@@ -208,9 +178,10 @@ body {
     box-shadow: 0 0 10px var(--tertiary-color);
     transition: .5s;
     float: center;
-    
 }
 
 .btn:hover {
     box-shadow: none;
 }
+
+/* Main Section End */
