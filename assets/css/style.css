@@ -80,7 +80,7 @@ body {
 
 /* Main Section Start */
 .home {
-    height: 120vh;
+    height: 100vh;
     justify-content: space-between;
     align-items: center;
     padding:1% 12%;
@@ -124,7 +124,7 @@ body {
 /* /* Second slector */
 .home-content p .second {
     display: none;
-    color: beige;
+    color: var(--neutral-lt-color);
     font-size: larger;
     line-height: 1.5;
     }
