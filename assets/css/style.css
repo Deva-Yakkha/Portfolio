@@ -39,6 +39,7 @@
 }
 
 body {
+    height: 150vh;
     background: rgb(16,166,132);
     background: linear-gradient(90deg, rgba(16,166,132,1) 0%, rgba(9,9,121,1) 42%, rgba(6,20,167,1) 69%, rgba(0,212,255,1) 100%);}
 
@@ -83,15 +84,15 @@ body {
     height: 100vh;
     justify-content: space-between;
     align-items: center;
-    padding:1% 12%;
+    padding:1% 2% 0% 1%;
     width: auto;
     }
 
 .photo img {
         position: fixed;
-        width: 400px;
+        width: 300px;
         left: -35px;
-        top: 12%;
+        top: 15%;
         left: 2%;
         border-radius: 20%;
     }
@@ -104,7 +105,7 @@ body {
     }
 
 .home-content h1 {
-        font-size: 3rem;
+        font-size: 2rem;
         line-height: 1.2;
         text-align: left;
     }
@@ -115,10 +116,10 @@ body {
 }
     
 .home-content p {
-    font-size: 1.23rem;
+    font-size: 1.rem;
     line-height: 2.0rem;
-    margin: 10px 2px;
-    height: 20px 30px;
+    margin: 12px 2px;
+    height: 15px 30px;
 }
 
 /* /* Second slector */
@@ -129,13 +130,13 @@ body {
     line-height: 1.5;
     }
     
-    /* First slector */
+/* First slector */
 .home-content p:hover .first {
     display: none;
     
     }
     
-    /* Second slector */
+/* Second slector */
 .home-content p:hover .second {
     display: inline;
     }
